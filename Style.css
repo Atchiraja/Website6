@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Coffee Varieties Section */
+.coffee-varieties {
+    margin-top: 20px;
+}
+
+.coffee-img {
+    width: 100%; /* Make the image take the full width of the card */
+    height: 400px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* This will ensure the aspect ratio is maintained */
+}
+
+/* Card Layout */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Price and Add to Cart Section */
+.price {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/* Smartphones */
+@media screen and (min-width: 320px) {
+    .container {
+        width: 90%; /* Slightly wider on small screens */
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 70%; /* Adjust container width for tablets */
+    }
+}
+
+/* Desktops and Laptops */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 60%; /* More compact on larger screens */
+    }
+}
+
+/* Large Screens */
+@media screen and (min-width: 1824px) {
+    .container {
+        width: 50%; /* Even more compact on very large screens */
+    }
+}

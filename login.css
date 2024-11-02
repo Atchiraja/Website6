@@ -1,0 +1,77 @@
+html, body {
+    height: 100%; /* Ensure html and body take up the full height */
+    margin: 0; /* Remove default margin */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Coffee2.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    
+}
+
+.card {
+    border-radius: 10px;
+    background: rgb(225, 225, 225, 0.6);
+}
+
+.card-body {
+    padding: 2rem;
+    
+
+}
+
+h2 {
+    color: rgb(94, 22, 22);
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+.text-center a {
+    color: rgb(130, 26, 26);
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: rgb(94,22,22);
+    border-color: #dfe2e5;
+}
+
+.btn-primary:hover {
+    background-color: rgb(172, 52, 52);
+    border-color: #30353a;
+}
+/* Smartphones */
+@media screen and (min-width: 320px) {
+    .container {
+        width: 90%; /* Slightly wider on small screens */
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 70%; /* Adjust container width for tablets */
+    }
+}
+
+/* Desktops and Laptops */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 60%; /* More compact on larger screens */
+    }
+}
+
+/* Large Screens */
+@media screen and (min-width: 1824px) {
+    .container {
+        width: 50%; /* Even more compact on very large screens */
+    }
+}

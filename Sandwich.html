@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Varieties</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="Cart.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="text-center">Explore Our Sandwich Varieties</h1>
+    </header>
+    <a href="Home.html" class="btn btn-primary" >Back to Home</a> 
+    <button class="btn btn-primary" onclick="window.location.href='Addtocart.html'">View Cart</button>
+    <!-- Coffee Images Section -->
+    <section class="coffee-varieties mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="sandClub.png" class="card-img-top coffee-img" alt="Club sandwich">
+                        <div class="card-body">
+                            <h2 class="card-title">Club Sandwich</h2>
+                            <div class="add-to-cart">
+                                <span class="price">₹200</span> <!-- Updated price -->
+                                <button class="btn btn-success" onclick="addToCart('Clubsandwich', 200)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="sandsalad.png" class="card-img-top coffee-img" alt="Egg Salad Sandwich">
+                        <div class="card-body">
+                            <h5 class="card-title">Egg Salad Sandwich</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹180</span> <!-- Updated price -->
+                                <button class="btn btn-success" onclick="addToCart('eggsalad', 180)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="sandchicken.png" class="card-img-top coffee-img" alt="Crack Chicken Sandwich">
+                        <div class="card-body">
+                            <h5 class="card-title">Crack Chicken Sandwich</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹220</span> <!-- Updated price -->
+                                <button class="btn btn-success" onclick="addToCart('chicken', 220)" >Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Joe-sand.png" class="card-img-top coffee-img" alt="Sloppy Joe">
+                        <div class="card-body">
+                            <h5 class="card-title">Sloppy Joe</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹190</span> <!-- Updated price -->
+                                <button class="btn btn-success" onclick="addToCart('Sloppy', 190)" >Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="breakfastsand.png" class="card-img-top coffee-img" alt="Breakfast Sandwich">
+                        <div class="card-body">
+                            <h5 class="card-title">Breakfast Sandwich</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹210</span> <!-- Updated price -->
+                                <button class="btn btn-success" onclick="addToCart('Breakfast', 210)" >Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Poboy-sand.png" class="card-img-top coffee-img" alt="Po'Boy">
+                        <div class="card-body">
+                            <h5 class="card-title">Po'Boy</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹230</span> <!-- Updated price -->
+                                <button class="btn btn-success" onclick="addToCart('Po\'Boy', 230)" >Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="toasted-sand.png" class="card-img-top coffee-img" alt="Toasted Sandwich">
+                        <div class="card-body">
+                            <h5 class="card-title">Toasted Sandwich</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹200</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Toasted', 200)" >Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center">&copy; 2024 Coffee Haven. All rights reserved.</p>
+        
+    </footer>
+
+</body>
+</html>

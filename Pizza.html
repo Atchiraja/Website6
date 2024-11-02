@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Varieties</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="Cart.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="text-center">Explore Our Pizza & Burgers Varieties</h1>
+    </header>
+    <a href="Home.html" class="btn btn-primary" >Back to Home</a> 
+    <button class="btn btn-primary" onclick="window.location.href='Addtocart.html'">View Cart</button>
+    <section class="coffee-varieties mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Bismark-Pizza.jpg" class="card-img-top coffee-img" alt="Bismark Pizza">
+                        <div class="card-body">
+                            <h2 class="card-title">Bismark Pizza</h2>
+                            <div class="add-to-cart">
+                                <span class="price">₹350</span> 
+                                <button class="btn btn-success"onclick="addToCart('Bismark', 350)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="California-Pizza.jpg" class="card-img-top coffee-img" alt="California Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">California Pizza</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹400</span> 
+                                <button class="btn btn-success"onclick="addToCart('Californaia', 400)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Caprese-Pizza.jpg" class="card-img-top coffee-img" alt="Caprese Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Caprese Pizza</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹380</span>
+                                <button class="btn btn-success"onclick="addToCart('Caprese', 380)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Carbonara-Pizza.jpg" class="card-img-top coffee-img" alt="Carbonara Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Carbonara Pizza</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹420</span> 
+                                <button class="btn btn-success"onclick="addToCart('Carbonara', 420)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Detroit-Pizza.jpg" class="card-img-top coffee-img" alt="Detroit Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Detroit Pizza</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹450</span>
+                                <button class="btn btn-success"onclick="addToCart('Detroit', 450)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Banh-Mi-Burger.jpg" class="card-img-top coffee-img" alt="Banh Mi Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Banh Mi Burger</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹220</span> 
+                                <button class="btn btn-success"onclick="addToCart('Banh mi', 220)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Beyond-Burger.jpg" class="card-img-top coffee-img" alt="Beyond Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Beyond Burger</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹240</span> 
+                                <button class="btn btn-success"onclick="addToCart('Beyond', 240)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Big-Mac-Burger.jpg" class="card-img-top coffee-img" alt="Big Mac Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Mac Burger</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹230</span>
+                                <button class="btn btn-success"onclick="addToCart('Big Mac', 230)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Black-Bean-Burgers.jpg" class="card-img-top coffee-img" alt="Black Bean Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Black Bean Burger</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹220</span> 
+                                <button class="btn btn-success"onclick="addToCart('Black Bean', 220)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Chili-Burger.jpg" class="card-img-top coffee-img" alt="Chili Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Chili Burger</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹210</span>
+                                <button class="btn btn-success"onclick="addToCart('Chili', 210)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Donut-Burger.jpg" class="card-img-top coffee-img" alt="Donut Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Donut Burger</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹250</span> 
+                                <button class="btn btn-success"onclick="addToCart('Donut', 250)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center">&copy; 2024 Coffee Haven. All rights reserved.</p>
+        
+    </footer>
+
+</body>
+</html>

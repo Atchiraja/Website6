@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Varieties</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="Cart.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="text-center">Explore Our Drinks Varieties</h1>
+    </header>
+
+    <a href="Home.html" class="btn btn-primary" >Back to Home</a> 
+    <button class="btn btn-primary" onclick="window.location.href='Addtocart.html'">View Cart</button>
+
+    <!-- Coffee Images Section -->
+    <section class="coffee-varieties mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="DietSoda.jpg" class="card-img-top coffee-img" alt="Diet Soda">
+                        <div class="card-body">
+                            <h2 class="card-title">Diet Soda</h2>
+                            <div class="add-to-cart">
+                                <span class="price">₹60</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Dietsoda', 60)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Energydrinks.jpg" class="card-img-top coffee-img" alt="Energy Drinks">
+                        <div class="card-body">
+                            <h5 class="card-title">Energy Drinks</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹120</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Energy', 120)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Fruitjuices.jpg" class="card-img-top coffee-img" alt="Fruit Juices">
+                        <div class="card-body">
+                            <h5 class="card-title">Fruit Juices</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹100</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Fruit Juices', 100)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="herbal-tea.jpg" class="card-img-top coffee-img" alt="Herbal Tea">
+                        <div class="card-body">
+                            <h5 class="card-title">Herbal Tea</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹80</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Herbal', 80)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="broth-soup.jpg" class="card-img-top coffee-img" alt="Broth Soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Broth Soup</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹150</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Broth', 150)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="gintonic.jpg" class="card-img-top coffee-img" alt="Gin Tonic">
+                        <div class="card-body">
+                            <h5 class="card-title">Gin Tonic</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹250</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Gin Tonic', 250)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="cubalibre.jpg" class="card-img-top coffee-img" alt="Cuba Libre">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuba Libre</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹250</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Cuba', 250)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Frozendaiquiri.jpg" class="card-img-top coffee-img" alt="Frozen Daiquiri">
+                        <div class="card-body">
+                            <h5 class="card-title">Frozen Daiquiri</h5>
+                            <div class="add-to-cart">
+                                <span class="price">₹300</span> <!-- Updated price -->
+                                <button class="btn btn-success"onclick="addToCart('Frozen', 300)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center">&copy; 2024 Coffee Haven. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

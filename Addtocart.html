@@ -1,0 +1,134 @@
+<html>
+<head>
+    <title>Your Cart | Ice Cream Shop</title>
+    <link rel="stylesheet" href="StyleCart.css"> 
+    <script src="Cart.js" defer></script> <!-- Ensure cart.js is loaded -->
+</head>
+<body>
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url(Coffeebg.png);
+            background-position: center;                   /* Center the background image */
+            background-size: cover;                        /* Scale the image to cover the entire page */
+            background-repeat: no-repeat;                  /* Prevent the image from repeating */
+            background-attachment: fixed;                  /* Make the image stay fixed while scrolling */
+            height: 100vh;  
+            
+        }
+        
+        header {
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+        
+        .header h1 {
+            margin-left: 30px;
+            font-size: 2rem;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: #ffffff;
+        }
+        nav {
+           margin-left: auto;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0; /* Remove margin */
+            padding: 0;
+        }
+        
+        .nav-links li {
+            margin-left: 20px;
+        }
+        
+        .nav-links a {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 5px 10px;
+            text-align: right;
+            
+        }
+        
+        .nav-links a:hover {
+            color: #a09fd2;
+        } 
+        
+            </style>
+            <header>
+                <div class="header">
+                    <img src="coffeelogo.jpg" alt="Coffee Shop Logo" class="logo">
+                    <h1>Welcome to Coffee Haven</h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="javascript:void(0);" onclick="showMenuSection()">Menu</a></li>
+                        <li><a href="Addtocart.html">MyCart</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.google.com/maps/place/Cafe+Terrase/@16.5058822,80.5876006,13z/data=!4m10!1m2!2m1!1scafeteria!3m6!1s0x3a35fb3b35bbc43b:0xf89f5c69cb355672!8m2!3d16.5058822!4d80.6638183!15sCgljYWZldGVyaWFaCyIJY2FmZXRlcmlhkgEEY2FmZeABAA!16s%2Fg%2F11s60s4mb2?entry=ttu&g_ep=EgoyMDI0MTAyMC4xIKXMDSoASAFQAw%3D%3D">Location</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+
+    <div class="container">
+        <h1 class="cart-title">Your Cart</h1>
+
+        <!-- Cart Table -->
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be dynamically inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Total Price -->
+        <div class="cart-total">
+            <p class="total">Total: ₹<span id="total-price">0</span></p>
+        </div>
+
+        <!-- Cart Buttons -->
+        <div class="cart-buttons">
+            <button onclick="location.href='Home.html'">Continue Shopping</button>
+            <button onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+        </div>
+    </div><br><br>
+
+</body>
+</html>
